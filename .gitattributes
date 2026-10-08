@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.ts text eol=lf
+*.vue text eol=lf
+*.sh text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+*.pt binary
+*.onnx binary
+weights/helmet_head_person_l.pt filter=lfs diff=lfs merge=lfs -text

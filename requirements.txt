@@ -1,0 +1,29 @@
+# Web API
+fastapi==0.124.4
+uvicorn==0.33.0
+python-dotenv>=1.0,<2.0
+python-multipart==0.0.20
+pydantic==2.10.6
+
+# Database and external services
+SQLAlchemy>=2.0,<3.0
+PyMySQL>=1.1,<2.0
+requests>=2.31,<3.0
+
+# Computer vision and inference
+numpy>=1.24,<3.0
+opencv-python>=4.8,<5.0
+decord==0.6.0
+onnxruntime>=1.16,<2.0
+torch>=2.0
+torchvision>=0.15
+Pillow>=9.0
+
+# YOLO compatibility utilities
+PyYAML>=6.0
+scipy>=1.10
+tqdm>=4.59
+matplotlib>=3.7
+
+# Local ISAPI mock server (development only)
+Werkzeug>=3.0,<4.0

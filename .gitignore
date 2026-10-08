@@ -1,0 +1,32 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime uploads and analysis results
+inference/
+
+# Frontend-generated files
+frontend/node_modules/
+frontend/dist/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Legacy local model copies; canonical models live in weights/
+/osnet_ain_msmt17_dynamic.onnx
+/osnet_ain_msmt17_dynamic.onnx.data
+/weights/fire_smoke.pt
